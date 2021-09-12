@@ -23,5 +23,6 @@ cd
 curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 docker pull vaultwarden/server:latest
+docker run -d --name vaultwarden --restart=always -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
 systemctl stop apache2
 echo "Complete - Proceed with other steps."
