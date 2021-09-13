@@ -3,7 +3,7 @@ Automated Vaultwarden Install!
 
 # What is this??
 This will aid and install the free version of Bitwarden ([Vaultwarden](https://github.com/dani-garcia/vaultwarden))
-This is Debian based distros
+This is for Debian based distros
 
 # How do I use this?
 ```bash
