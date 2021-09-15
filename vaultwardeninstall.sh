@@ -23,6 +23,6 @@ curl -L "https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/
 docker-compose up -d
 cd
 docker pull vaultwarden/server:latest
-docker run -d --name vaultwarden --restart=always -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
 systemctl stop apache2
+docker run -d --name vaultwarden --restart=always -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
 echo "Complete - Proceed with other steps."
