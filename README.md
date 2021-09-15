@@ -6,7 +6,18 @@ This will aid and install the free version of Bitwarden ([Vaultwarden](https://g
 This is for Debian based distros
 
 # How do I use this?
-```bash
+
+First get these packages
+```
+apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+```
+Now install script
+```
 curl -L "https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh" --output "vaultwardeninstall.sh"
 su -
 sh vaultwardeninstall.sh
