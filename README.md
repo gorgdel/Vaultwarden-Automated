@@ -53,6 +53,12 @@ Connect to NginxProxyManager
 ```
 192.168.0.1:81
 ```
+```
+Default Login
+Email:    admin@example.com
+Password: changeme
+```
+
 1. Select SSL Certificates
 
 2. Add SSL Certificate > Custom
