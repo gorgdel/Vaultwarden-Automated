@@ -4,6 +4,7 @@ apt-get install net-tools
 apt-get update
 apt-get install apt-transport-https
 apt-get install curl
+apt-get install nano
 apt-get install ca-certificates
 apt-get install gnupg
 apt-get install lsb-release
