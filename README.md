@@ -9,6 +9,7 @@ This is for Debian based distros
 
 First get these packages
 ```
+apt-get update
 apt-get install \
     apt-transport-https \
     ca-certificates \
@@ -19,9 +20,7 @@ apt-get install \
 ```
 Now install script
 ```
-curl -L "https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh" --output "vaultwardeninstall.sh"
-su -
-sh vaultwardeninstall.sh
+wget https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh -O vaultwardeninstall.sh && chmod +x vaultwardeninstall.sh ./vaultwardeninstall.sh
 ```
 This will install Vaultwarden, NginxProxyManager, Docker and Portainer
 
