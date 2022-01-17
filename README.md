@@ -20,7 +20,7 @@ apt-get install \
 ```
 Now install script
 ```
-wget https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh -O vaultwardeninstall.sh && chmod +x vaultwardeninstall.sh ./vaultwardeninstall.sh
+wget https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh -O vaultwardeninstall.sh && chmod +x vaultwardeninstall.sh && ./vaultwardeninstall.sh
 ```
 This will install Vaultwarden, NginxProxyManager, Docker and Portainer
 
