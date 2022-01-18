@@ -32,9 +32,7 @@ This will install Vaultwarden, NginxProxyManager, Docker and Portainer
 
 # Install Guide
 ```
-curl -L "https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh" --output "vaultwardeninstall.sh"
-su -
-sh vaultwardeninstall.sh
+wget https://raw.githubusercontent.com/gorgdel/Vaultwarden-Automated/master/vaultwardeninstall.sh -O vaultwardeninstall.sh && chmod +x vaultwardeninstall.sh && ./vaultwardeninstall.sh
 ```
 Once install is complete:
 ```
@@ -58,6 +56,13 @@ Default Login
 Email:    admin@example.com
 Password: changeme
 ```
+##### Certificates
+```
+You can just use letsencrypt, if you run into errors, ensure 
+> port 80 is port forwarded/exposed.
+> You haven't been timed out due to too many "challenges"
+```
+##### Manual Certificate
 
 1. Select SSL Certificates
 
